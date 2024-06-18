@@ -6,7 +6,7 @@ void setup() {
 void loop() {
   if (Serial.available() > 0) {
     String receivedData = Serial.readStringUntil('\n');
-    Serial.print("Success received data from ESP32 #2");
+    Serial.println("Success received data from ESP32 #2");
     Serial.println(receivedData);
   }
 }
