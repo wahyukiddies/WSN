@@ -20,7 +20,6 @@ selanjutnya ESP32 #2 mengirimkan data yang berhasil diperoleh ke ESP8266 #3 (lai
 setelah ESP8266 #3 menerima data tersebut, baru diubah ke dalam format JSON untuk dikirimkan ke Subscriber melalui public MQTT Broker yang tersedia secara free, dalam hal ini saya menggunakan **broker.hivemq.com**.
 Untuk pengujian apakah data JSON tersebut sampai atau tidak ke Subscriber, saya menggunakan tool free yang bernama MQTT Explorer.
 
-
 ## Hasil
 Alhamdulillah, semuanya berhasil terhubung sampai berhasil mengirimkan data berupa JSON ke MQTT broker untuk diteruskan ke Subscriber.
 
